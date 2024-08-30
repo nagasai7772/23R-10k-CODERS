@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>    <style>
+        body{
+            background-image: url("../assests/images/google.png");
+        color: aliceblue;
+        background-size: 1000px;
+        border: yellow;
+        
+       }
+       h1{
+        color:aqua;
+        font-size: 70px;
+       }
+       marquee{
+        color:yellow;
+        font-size: 25px;
+       }
+       table,tr,th{
+        border-radius:10px;
+        border: 1px solid red;
+       }
+    </style>
+     <table>
+        <tr><td>
+    
+    <center><h1>Google</h1></center>
+    <marquee direction="righttoleft">Applying For Googleworkspace</marquee>
+    <form>
+        <label for="Firstname">Firstname:</label>
+        
+        <input type="txt" name="name" placeholder="Enter name" required>
+
+        <label for="Lastname">Lastname:</label>
+        <input type="txt" name="name" placeholder="Enter name"><br><br>
+        <label for="gender"></label>
+        <input type="radio" id="gender" name="Gender" value="Male">Male
+        <label for="gender"></label>
+        <input type="radio" id="gender" name="Gender" value="Female">Female
+        <label for="gender"></label>
+        <input type="radio" id="gender" name="Gender" value="Not to say">Not to say<br><br>
+        <label for="birthday"></label>
+        Enter DOB:<input type="date" id="birthday" value="DOB"><br><br>
+        <label for="tel"></label>
+        Mobilenumber: <input type="tel" name="Mobilenumber" pattern="[0-9]{10}" required placeholder="9999999999"><br><br>
+        <label for="email"></label>
+        Enter Email: <input type="email" id="email" placeholder="John@gmail.com" required><br><br> Enter your Address:<br>
+        <textarea rows="3"></textarea><br><br>Enter pincode:<input type="number" value="number" pattern="[0-9]{5}"><br><br>
+
+        Applying as a:
+        <select option="dropdown">
+            <option value="" >Selectoption</option>
+            <option value="Intern" id="Intern">Intern</option>
+            <option value="Fresher" id="Fresher">Fresher</option>
+            <option value="Experienced" id="Experienced">Experienced</option>
+        </select>
+        <br><br>
+        Choose skills of yours:<br>
+        
+        <input type="checkbox" name="Skill" value="Html">Html<br>
+        <input type="checkbox" name="Skill"  value="CSS">CSS<br>
+        <input type="checkbox" name="Skill" value="Javascript">Javascript<br>
+        <input type="checkbox" name="Skill" value="Python">Python<br>
+        <input type="checkbox" name="Skill" value="Java">Java<br>Enter some criteria:<br>
+
+        <textarea rows="5" columns="20"></textarea><br><br>
+        
+        <center>  <a href="./Day6submit.html" target="blank"> <input type="button" value="submit"/></center></a>
+
+    </form>
+</td></tr></table>
+</body>
+</html>
